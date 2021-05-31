@@ -11,4 +11,4 @@ shift
 touch $OUTPUT
 truncate -s 0 $OUTPUT
 
-clang-tidy "$@"
+clang-tidy --quiet "$@"
